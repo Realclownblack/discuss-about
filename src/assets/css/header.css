@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.Header{
+    overflow: hidden;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    margin-bottom: 10%;
+}
+
+.Header-intems{ 
+    display: flex; 
+}
