@@ -1,7 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 .Box{
-    background-color: #386dbd;
+    font-family: 'Maven Pro', sans-serif;
+    background-color:#386dbd69;
     width: 720px;
-    height: 650px;
+    height: 477px;
     margin-top: 11%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.category{
+
+}
+.title{
+
+}
+
+.contect{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 610px;
+    height: 272px;
+    border-radius: 10px;
+    text-align: center;
+}
+.text-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+.barra-opcoes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    width: 100%;
+    height: 13%;
+}
+.comment-button{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    border: 1px #688ff9;
+    box-shadow:inset 0 -0.6em 0 -0.35em #668fff;
+    text-align:center;
+    position:relative; 
+    background-color: #668fff;
 }
