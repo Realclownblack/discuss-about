@@ -21,15 +21,22 @@
     background: #555; 
   }
 .Header{
+    display: flex;
+    align-items: center;
     overflow: hidden;
     z-index: 99;
     position: fixed;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    height: 50px;
+    background-color: #0f4571;
+    height: 66px;
     margin-bottom: 10%;
 }
 
 .Header-intems{ 
-    display: flex; 
+    display: flex;
+    align-items: center; 
+}
+
+.logo-img{
+  width: 50px;
 }

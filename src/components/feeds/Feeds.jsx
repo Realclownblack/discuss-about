@@ -1,5 +1,4 @@
 import '../../assets/css/feeds.css'
-import logo from '../../assets/img/logo.png'
 export const Feeds = () => {
 
     return (
@@ -13,7 +12,7 @@ export const Feeds = () => {
 
                     </div>
                     <div>
-                        {/* <img className='logo' src={logo} alt="" /> */}
+                        
                     </div>
                 </div>
             </div>
