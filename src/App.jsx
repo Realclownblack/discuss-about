@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import {Home} from '../src/pages/Home.jsx'
+import {RoutesJS} from '../src/router'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-        <Home/>
+        <RoutesJS/>
     </div>
   )
 }
