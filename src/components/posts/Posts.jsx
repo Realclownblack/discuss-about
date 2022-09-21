@@ -23,9 +23,18 @@ export const Posts = () => {
         <div className="Posts">
             <div className='Posts-intems'>
                 <div className='feed-post'>
+                    
                     {posts.map((post) => <Box_post category={post.category} title={post.title} contect={post.content} />)}
+                    <Box_post />
+                    <div className='fack-div'></div>
+                    <Box_post />
+                    <div className='fack-div'></div>
+                    <Box_post />
+                    <div className='fack-div'></div>
+                    <Box_post />
                     <div className='fack-div'></div>
                     <Barra_post/>
+                    
                 </div>
                 <div className='notificantion-post'>
                     <Notificantion_post/>

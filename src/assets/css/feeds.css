@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Gugi&display=swap');
 .Feeds{
     z-index: 99;
     position: fixed;
@@ -8,9 +9,43 @@
 }
 
 .Feeds-intems{ 
-    display: flex; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .logo{
     width: 168px;
+}
+.Feeds-Category{
+    
+}
+.foto-perfil{
+    width: 139px;
+    height: 140px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.Feeds-perfil{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    height: 239px;
+    width: 223px;
+    margin-top: 24px;
+    background-color: #14bedd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inform-perfil{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Gugi', cursive;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: white;
 }

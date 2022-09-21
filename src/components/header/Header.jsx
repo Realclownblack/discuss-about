@@ -21,7 +21,7 @@ export const Header = () => {
             <div className='Header-intems'>
                 <img className='logo-img' src={logo} alt="" />
             </div>
-            <div>
+            <div className='Header-button'>
                 <button className='logout' onClick={logout}>Logout</button>
             </div>
         </div>
