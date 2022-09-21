@@ -1,34 +1,100 @@
+.Login-div{
+  padding: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Login {
+  height: 337px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #0f4571;
+  border-radius: 25px;
+  box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
+  flex-direction: column;
 
-.login {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+
+.img-google{
+  width: 23px;
+}
+.logo_2{
+  width: 264px;
+  animation:float 5s linear infinite;
+}
+.login__google {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 55%;
+  margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login__google:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.login__google:main,
+.login__google:focus {
+  user-select: auto;
+}
+
+.login__google:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.login__google:disabled {
+  cursor: auto;
+}
+
+
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0rem);
   }
-  .login__container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #dcdcdc;
-    padding: 30px;
+  50%{
+    transform: translateY(3rem);
   }
-  .login__textBox {
-    padding: 10px;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .login__btn {
-    padding: 10px;
-    font-size: 18px;
-    margin-bottom: 10px;
-    border: none;
-    color: white;
-    background-color: black;
-  }
-  .login__google {
-    background-color: #4285f4;
-  }
-  .login div {
-    margin-top: 7px;
-  }
+}
