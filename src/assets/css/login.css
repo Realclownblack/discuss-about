@@ -99,7 +99,7 @@
   }
 }
 
-@media only screen and (max-width: 1228px) {
+@media only screen and (max-width: 1100px) {
   .Login-div {
     /* padding: 275px; */
     display: flex;
