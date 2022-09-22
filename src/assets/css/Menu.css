@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     background: #f7f7f7;
-    z-index:10;  
+    z-index:100;  
     overflow:hidden;
     box-shadow: 2px 0 18px rgba(0, 0, 0, 0.26);
 }
@@ -47,6 +47,9 @@
 .menu li a.contact:before {
   content: "\f003";
 }
+.menu li a.fa fa-sign-out:before {
+  content: "\f003";
+}
 .menu li a.about:before {
   content: "\f007";
 }
@@ -56,13 +59,12 @@
 .menu-bar li a:hover,
 .menu li a:hover,
 .menu li:first-child a {
-  background: #267fdd;
+  background: #0f4571;
   color: #fff;
 }
 .menu-bar{
     overflow:hidden;
     left:5em;
-    z-index:5;
     width:0;
     height:0;
     transition: all 0.1s ease-in-out;
@@ -81,7 +83,7 @@
 }
 .menu-bar li:first-child a{
     height:5em;
-    background: #267fdd;
+    background: #0f4571;
     color: #fff;    
     line-height:5
 }
@@ -99,7 +101,7 @@
     height:100%;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 950px) {
     .container{
         margin-top:100px;
     }

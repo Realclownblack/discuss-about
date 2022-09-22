@@ -5,7 +5,7 @@ import React, { useEffect} from "react";
 import {useNavigate } from "react-router-dom";
 import { auth } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
-
+import { Search } from '../items/Search';
 
 export const Header = () => {
     const [user, loading] = useAuthState(auth);
@@ -22,8 +22,11 @@ export const Header = () => {
             <div className='Header-intems'>
                 <img className='logo-img' src={logo} alt="" />
             </div>
+            <div>
+            <Search/>
+            </div>
             <div className='Header-button'>
-                <button className='logout' onClick={logout}>Logout</button>
+                <button className='logout' onClick={() => logout()}>Logout</button>
             </div>
         </div>
     )

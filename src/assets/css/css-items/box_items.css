@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 .Box{
     font-family: 'Maven Pro', sans-serif;
-    background-color:#386dbd69;
-    width: 518px;
+    background-color:#ffffff;
+    width: 855px;
     height: 477px;
     margin-top: 11%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -14,8 +14,13 @@
 .category{
 
 }
-.title{
-
+.info-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
 }
 
 .contect{
@@ -29,16 +34,7 @@
     border-radius: 10px;
     text-align: center;
 }
-.text-box{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    background-color: white;
-    width: 300px;
-    height: 50px;
-    border-radius: 5px;
-    
-}
+
 .barra-opcoes{
     display: flex;
     align-items: center;
@@ -64,4 +60,34 @@
     text-align:center;
     position:relative; 
     background-color: #668fff;
+}
+.foto-perfil{
+    width: 76px;
+    height: 77px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.foto-img{
+    width: 100%;
+}
+.info-perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    width: 195px;
+}
+@media only screen and (max-width: 900px) {
+    .Box{
+        font-family: 'Maven Pro', sans-serif;
+        background-color:#ffffff;
+        width: 444px;
+        height: 477px;
+        margin-top: 11%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }

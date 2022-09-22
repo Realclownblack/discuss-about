@@ -28,9 +28,9 @@
     position: fixed;
     width: 100%;
     background-color: #0f4571;
-    height: 66px;
+    height: 81px;
     margin-bottom: 10%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .Header-button{ 

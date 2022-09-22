@@ -5,6 +5,7 @@ import {useNavigate } from "react-router-dom";
 import { auth, signInWithGoogle } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import google from '../../assets/img/google.png'
+import perfil from '../../assets/img/do-utilizador.png'
 import logo from '../../assets/img/logo.png'
 
 export const Login = () => {
@@ -19,13 +20,14 @@ export const Login = () => {
     return (
       <div className='Login-div'>
         <div className='div-stars'>
-          <div class="stars" ></div>
+          <div class="stars"></div>
         </div>
         <div className="Login">
           <img className='logo_2' src={logo} alt="" />
             <button className="login__btn login__google" onClick={signInWithGoogle}>
-              <img className='img-google' src={google} alt="" /> Login with Google
-            </button>
+              <img className='img-google' src={google} alt="" /> Logar pelo Google</button>
+            <button className="login__btn login__sem__logar" onClick={signInWithGoogle}>
+              <img className='img-google' src={perfil} alt="" />entrar sem logar</button>
         </div>       
       </div>
 

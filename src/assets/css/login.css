@@ -8,7 +8,7 @@
   position: absolute;
 }
 .Login {
-  height: 337px;
+
   width: 450px;
   display: flex;
   align-items: center;
@@ -19,7 +19,6 @@
   flex-direction: column;
 
 }
-
 
 .img-google{
   width: 23px;
@@ -92,6 +91,70 @@
   cursor: auto;
 }
 
+.login__sem__logar {
+  appearance: button;
+  background-color: #1e1d1d;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 55%;
+  margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login__sem__logar:after {
+  background-clip: padding-box;
+  background-color: #000000;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.login__sem__logar:main,
+.login__sem__logar:focus {
+  user-select: auto;
+}
+
+.login__sem__logar:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.login__sem__logar:disabled {
+  cursor: auto;
+}
+
 
 @keyframes float{
   0%, 100%{
@@ -104,7 +167,6 @@
 
 @media only screen and (max-width: 600px) {
   .Login {
-    height: 425px;
     width: 301px;
     display: flex;
     align-items: center;
@@ -143,15 +205,50 @@
     -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 211px;
+    width: 252px;
     margin-bottom: 65px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-        height: 62px;
+    height: 62px;
 }
 .div-stars {
-  margin-right: 100%;
+  margin-right: 52%;
+}
+.login__sem__logar {
+  appearance: button;
+  background-color: #1e1d1d;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 252px;
+  margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 62px;
 }
   
 }
