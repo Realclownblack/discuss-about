@@ -1,8 +1,11 @@
 .Login-div{
-  padding: 175px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
 }
 .Login {
   height: 337px;
@@ -100,17 +103,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .Login-div {
-    /* padding: 275px; */
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-}
   .Login {
-    height: 406px;
-    width: 229px;
+    height: 425px;
+    width: 301px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
