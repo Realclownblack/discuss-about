@@ -109,7 +109,7 @@
     justify-content: center;
 }
   .Login {
-    height: 337px;
+    height: 406px;
     width: 229px;
     display: flex;
     align-items: center;
@@ -153,6 +153,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+        height: 62px;
 }
 .div-stars {
   margin-right: 100%;
