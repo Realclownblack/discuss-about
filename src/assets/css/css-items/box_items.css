@@ -2,47 +2,53 @@
 .Box{
     font-family: 'Maven Pro', sans-serif;
     background-color:#ffffff;
-    width: 855px;
-    height: 477px;
+    width: 100%;
+    height: 100%;
     margin-top: 11%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 10px;
+    border:  1 px  solid black;
+    padding: 5px;
 }
-.category{
-
+.hr-box{
+    width: 100%;
+    opacity: 0.1;
 }
 .info-box{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1339px;
     align-items: center;
     justify-content: space-around;
     align-content: space-between;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
-.contect{
+.contect {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
     background-color: white;
-    width: 411px;
-    height: 272px;
+    width: 88%;
+    height: 100%;
     border-radius: 10px;
-    text-align: center;
+    /* background-color: aqua; */
+    padding: 12px;
+    line-height: 27px;
 }
-
 .barra-opcoes{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: aqua;
+    justify-content: space-evenly;
     width: 100%;
-    height: 13%;
+    height: 83px;
 }
 .comment-button{
     display:inline-block;
@@ -62,14 +68,25 @@
     background-color: #668fff;
 }
 .foto-perfil{
-    width: 76px;
-    height: 77px;
+    width: 62px;
+    height: 62px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.foto-perfil-user{
+    width: 48px;
+    height: 47px;
     border-radius: 70px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .foto-img{
     width: 100%;
 }
+.Commenter-box{
+    width: 76%;
+    margin-right: 50px;
+}
+
 .info-perfil{
     display: flex;
     flex-direction: row;
@@ -77,12 +94,26 @@
     justify-content: space-between; 
     width: 195px;
 }
+.tres-pontos{
+    width: 24px;
+}
+.text-post{
+    height: 100%;
+
+}
+.img-post{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 100%;
+}
+.img-postada{
+    width: 100%;
+}
 @media only screen and (max-width: 900px) {
     .Box{
         font-family: 'Maven Pro', sans-serif;
         background-color:#ffffff;
         width: 444px;
-        height: 477px;
         margin-top: 11%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         display: flex;
@@ -90,4 +121,31 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    .info-box{
+        display: flex;
+        flex-direction: row;
+        width: 599px;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    .Commenter-box {
+        width: 68%;
+    }
+    .img-postada{
+        width: 100%;
+    }
+    .contect {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 88%;
+        height: 100%;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+    
 }

@@ -33,7 +33,7 @@
     margin-bottom: 60%;
     border-radius: 19px 10px;
  }
- .feed-post{
+ .feed-post {
     background-color: rgb(224 224 224);
     width: 913px;
     display: flex;
@@ -41,7 +41,8 @@
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-evenly;
- }
+    padding-top: 42px;
+}
  .notificantion-post{
     background-color:  rgb(224, 224, 224);
     width: 392px;
