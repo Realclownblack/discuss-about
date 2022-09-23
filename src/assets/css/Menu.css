@@ -127,6 +127,16 @@
     }
     .para{
     padding-left:5px;
+    
+    }
+    .menu li {
+      display: inline-block;
+      width: 16%;
+  }
+  .menu-bar li a:hover, .menu li a:hover, .menu li:first-child a {
+    background: #0f4571;
+    color: #fff;
+    width: 57px;
 }  
 }
 @media screen and (max-height: 34em){
@@ -139,4 +149,5 @@
   .menu{
         height:3.5em;
     }
+    
 }

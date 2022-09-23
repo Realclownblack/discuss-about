@@ -45,12 +45,16 @@ right: -45px;
 }
 @media only screen and (max-width: 600px) {
     .search-container {
-        /* width: 328px; */
+        width: 100%;
         display: block;
         margin: 0 auto;
     }
     .logout{
         display: none;
+    }
+    .Search-div {
+        padding-top: 75px;
+        width: 216px;
     }
 }
   
