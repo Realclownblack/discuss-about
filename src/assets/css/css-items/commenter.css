@@ -43,7 +43,7 @@ commenter-bar::-moz-placeholder {
     width: 29px;
     height: 26px;
     top: -35px;
-    right: -32px;
+    right: -26px;
 }
 
 @media only screen and (max-width: 600px) {
