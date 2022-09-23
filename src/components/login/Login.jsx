@@ -26,8 +26,6 @@ export const Login = () => {
           <img className='logo_2' src={logo} alt="" />
             <button className="login__btn login__google" onClick={signInWithGoogle}>
               <img className='img-google' src={google} alt="" /> Logar pelo Google</button>
-            <button className="login__btn login__sem__logar" onClick={signInWithGoogle}>
-              <img className='img-google' src={perfil} alt="" />entrar sem logar</button>
         </div>       
       </div>
 
