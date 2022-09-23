@@ -22,7 +22,17 @@ export const Box_post = (props) => {
             <div className='contect'>{props.contect}
             <div className='text-post'>
             Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997,
-            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.</div>
+            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.
+            Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997,
+            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.
+            Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997,
+            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.
+            Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997,
+            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.
+            <var> Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997,
+            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.
+            <var> Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 22 de julho de 1997,
+            com os capítulos compilados e publicados em 103 volumes tankōbon pela editora Shueisha até agosto de 2022. One Piece conta as aventuras de Monkey D.</var></var></div>
             <div className='img-post'><img className='img-postada' src={one_pice} alt="" /></div>
             </div>
             <hr className='hr-box' />
