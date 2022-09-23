@@ -1,30 +1,33 @@
 .Posts {
     width: 100%;
     background-color: rgb(214, 214, 214);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Posts-intems{ 
+.Posts-intems {
     background-color: rgb(224, 224, 224);
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
-.fack-div{
+
+.fack-div {
     gap: 10px;
 }
 
-
-.caixa-1{
+.caixa-1 {
     background-color: rgb(255, 255, 255);
     width: 250px;
     height: 245px;
     border-radius: 25px;
     margin-top: 87px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
- }
- .barra-post{
+}
+
+.barra-post {
     z-index: 99;
     position: fixed;
     background-color: #0f4571;
@@ -32,8 +35,9 @@
     height: 95px;
     margin-bottom: 60%;
     border-radius: 19px 10px;
- }
- .feed-post {
+}
+
+.feed-post {
     background-color: rgb(224 224 224);
     width: 913px;
     display: flex;
@@ -43,17 +47,19 @@
     justify-content: space-evenly;
     padding-top: 42px;
 }
- .notificantion-post{
-    background-color:  rgb(224, 224, 224);
-    width: 392px;
+
+.notificantion-post {
+    background-color: rgb(224, 224, 224);
+    width: 349px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
- }
- @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
     .Posts {
         width: 100%;
         background-color: rgb(214, 214, 214);
     }
- }
+}

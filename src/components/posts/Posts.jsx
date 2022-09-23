@@ -1,7 +1,6 @@
 import { Box_post } from '../../components/items/Box_post'
-import { Barra_post } from '../../components/items/Barra_post'
-import { Notificantion_post } from '../items/Notificantion_post'
 import { Menu } from '../menu/Menu';
+import { Create } from '../create/Create';
 import '../../assets/css/posts.css'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
@@ -22,6 +21,7 @@ export const Posts = () => {
 
     return (
         <div className="Posts">
+            <Create/>
             <div className='Posts-intems'>
                 <div className='feed-post'>
                     {/* {posts.map((post) => <Box_post category={post.category} title={post.title} contect={post.content} />)} */}

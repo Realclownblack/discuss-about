@@ -6,9 +6,11 @@ import { auth } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { logout } from "../../firebase";
 
+
 export const Menu = () => {
     const [visible, setVisible] = useState("")
     const [pressed, setPressed] = useState(false)
+    const [createVisible, setCreateVisible] = useState('menu-aberto')
     const [user, loading] = useAuthState(auth);
     const navigate = useNavigate();
     useEffect(() => {
@@ -18,6 +20,9 @@ export const Menu = () => {
         if (!user) navigate("/");
       }, [user, loading]);
 
+    const setCreate = () => {
+        createVisible ? setCreateVisible('menu-aberto') : setCreateVisible('menu-fechado')
+    }
 
     const setMenuVisible = () => {
         pressed ? setVisible("") : setVisible("open")
@@ -39,7 +44,7 @@ export const Menu = () => {
                 <li><a href="#" onClick={() => setMenuVisible()}>Menu</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Perfil</a></li>
-                <li><a href="#">Criar</a></li>
+                <li><a href="#" >Criar</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#" onClick={() => logout()} >Logout</a></li>
             </ul>

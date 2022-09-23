@@ -1,0 +1,181 @@
+.Create-div {
+    width: 744px;
+    height: 559px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    position: fixed;
+    z-index: 110;
+    margin-top: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fechar {
+    display: none;
+    width: 0%;
+    height: 0%;
+}
+
+.Create-barra {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Create-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 92%;
+    margin-bottom: 1%;
+}
+
+.Create-teg {
+    background-color: aliceblue;
+    width: 80%;
+    height: 80px;
+}
+
+.Create-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+
+.Create-text-post {
+    line-height: 27px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.hr-create {
+    width: 100%;
+}
+
+.Create-info-perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 218px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.Create-foto-perfil {
+    margin-bottom: 3%;
+    width: 62px;
+    height: 62px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.Create-foto-img {
+    width: 100%;
+}
+
+.Create-div-post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Create-arquivos {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#criar {
+    font-size: 21px;
+    font-family: monospace;
+    color: black
+}
+
+.img-create {
+    width: 100%;
+    height: 100%;
+}
+
+#Button-Create {
+    background-color: #0f4571;
+    border: 1px solid #0f4571;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 10%) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: din-round, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.Button-Create-x {
+    color: #0f4571;
+    background-color: #ffffff00;
+    border: none;
+    /* border-radius: none; */
+    /* box-shadow: rgb(0 0 0 / 10%) 0 2px 4px 0; */
+    /* box-sizing: border-box; */
+    /* color: #fff; */
+    cursor: pointer;
+    font-family: din-round, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media only screen and (max-width: 800px) {
+    .Create-barra {
+        display: flex;
+        width: 95%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -56px;
+        margin-bottom: -60px;
+    }
+    .Create-div {
+        width: 97%;
+        height: 753px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        position: fixed;
+        z-index: 110;
+        margin-top: 106px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    }
+}
