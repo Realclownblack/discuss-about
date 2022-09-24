@@ -3,18 +3,20 @@ import foto from '../../assets/img/perfil.png'
 import { useState } from 'react'
 
 export const Create = (props) => {
-    const [visible, setVisible] = useState("")
+    const [visible, setVisible] = useState("Create-div")
     const [pressed, setPressed] = useState(false)
+
+
     const setMenuVisible = () => {
-        pressed ? setVisible("") : setVisible("fechar")
+        pressed ? setVisible("Create-div") : setVisible("Create-div-fechar")
         setPressed(!pressed)
     }
 
+
     return (
-        <div className={"Create-div"+ visible}>
+        <div className={visible}>
             <div className='Create-barra'>
                 <button className={"Button-Create-x"} onClick={() => setMenuVisible()}>x</button>
-                <p id='criar'>Criar Publicação</p>
                 <button id='Button-Create' >Publicar</button>
             </div>
             <hr className='hr-create' />

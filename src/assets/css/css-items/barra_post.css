@@ -1,9 +1,10 @@
-.Barra-post{
-    z-index: 99;
+.Barra-post {
+    z-index: 98;
     position: fixed;
-    background-color: #0f4571;
-    width: 46%;
-    height: 95px;
-    border-radius: 53px 53px 0px 0px;
-    bottom: 0px;
- }
+    background-color: #ffffff;
+    width: 54%;
+    height: 54px;
+    margin-top: 69px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 25px;
+}

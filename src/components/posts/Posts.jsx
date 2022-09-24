@@ -1,6 +1,6 @@
 import { Box_post } from '../../components/items/Box_post'
+import { Create_ilha } from '../create/Create_ilha';
 import { Menu } from '../menu/Menu';
-import { Create } from '../create/Create';
 import '../../assets/css/posts.css'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
@@ -14,25 +14,26 @@ export const Posts = () => {
         setPosts(data)
         console.log(data)
     }
-
+  
     useEffect(() => {
         fetchPosts()
     }, [])
 
     return (
         <div className="Posts">
-            <Create/>
             <div className='Posts-intems'>
                 <div className='feed-post'>
+                    <Create_ilha/>
+                    <div className='fack-div'></div>
+                    <Box_post />
+                    <div className='fack-div'></div>
+                    <Box_post />
+                    <div className='fack-div'></div>
+                    <Box_post />
+                    <div className='fack-div'></div>
+                    <Box_post />
+                    <div className='fack-div'></div>
                     {/* {posts.map((post) => <Box_post category={post.category} title={post.title} contect={post.content} />)} */}
-                    <Box_post />
-                    <div className='fack-div'></div>
-                    <Box_post />
-                    <div className='fack-div'></div>
-                    <Box_post />
-                    <div className='fack-div'></div>
-                    <Box_post />
-                    <div className='fack-div'></div>
                 </div>
             </div>
             <Menu/>

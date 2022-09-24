@@ -2,7 +2,7 @@
 .Box{
     font-family: 'Maven Pro', sans-serif;
     background-color:#ffffff;
-    width: 100%;
+    width: 61%;
     height: 100%;
     margin-top: 11%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -21,9 +21,9 @@
 .info-box{
     display: flex;
     flex-direction: row;
-    width: 1339px;
+    width: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-between;
     margin-bottom: 1%;
     margin-top: 1%;

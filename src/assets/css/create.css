@@ -1,26 +1,27 @@
+
 .Create-div {
-    width: 744px;
-    height: 559px;
+    width: 497px;
+    height: 467px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
     position: fixed;
     z-index: 110;
-    margin-top: 106px;
+    margin-top: -61px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 }
 
-.Create-divfechar {
-    display: none;
-}
 
-.fechar {
+.Create-div-fechar {
+    margin-top: -33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     display: none;
-    width: 0%;
-    height: 0%;
 }
 
 .Create-barra {
@@ -102,11 +103,6 @@
     flex-direction: row;
 }
 
-#criar {
-    font-size: 21px;
-    font-family: monospace;
-    color: black
-}
 
 .img-create {
     width: 100%;
@@ -161,25 +157,23 @@
 @media only screen and (max-width: 800px) {
     .Create-barra {
         display: flex;
-        width: 95%;
+        width: 93%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin-top: -56px;
-        margin-bottom: -60px;
     }
     .Create-div {
-        width: 97%;
-        height: 753px;
+        width: 100%;
+        height: 75%;
         background-color: rgb(255, 255, 255);
         border-radius: 25px;
         position: fixed;
         z-index: 110;
-        margin-top: 106px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    
     }
 }
