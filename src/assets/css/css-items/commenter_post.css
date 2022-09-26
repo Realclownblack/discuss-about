@@ -1,0 +1,44 @@
+.commenter-div-post{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8%;
+}
+.foto-perfil-user{
+    width: 48px;
+    height: 47px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.commenters-post{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-commenter-post{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dddddd;
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 22px;
+    font-family: inherit;
+    word-break: break-word;
+}
+@media only screen and (max-width: 600px) {
+    .commenter-container {
+        /* width: 328px; */
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+  
+  

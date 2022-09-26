@@ -130,7 +130,9 @@
     -webkit-user-select: none;
     touch-action: manipulation;
 }
-
+#tep{
+    display: none;
+}
 .Button-Create-x {
     color: #0f4571;
     background-color: #ffffff00;

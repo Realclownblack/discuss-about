@@ -14,7 +14,7 @@ export const Create = (props) => {
 
 
     return (
-        <div className={visible}>
+        <div  className={visible}>
             <div className='Create-barra'>
                 <button className={"Button-Create-x"} onClick={() => setMenuVisible()}>x</button>
                 <button id='Button-Create' >Publicar</button>

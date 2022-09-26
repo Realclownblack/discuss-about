@@ -22,7 +22,7 @@ export const Create_ilha = () => {
                     </div>
                     <button className={'Chamar-create'} onClick={() => setMenuVisible()}>No que você esta pensando ?</button>
                 </div>
-                <hr className='hr-create' />
+                <hr className='hr-create-ilha' />
                 <div className='Create-file'>
                 </div>
             </div>
